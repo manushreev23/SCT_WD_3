@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  
+  <div id="mode-selection">
+    <h1>Let's Play<br>Tic-Tac-Toe</h1>
+    <p style="text-align: center;">You Choose to Play</p>
+    
+    <button class="vibrant-button cancel" id="vs-player">Against Another Player</button>
+    <button class="vibrant-button" id="vs-computer">Against Computer</button>
+  </div>
+
+
+  <div id="game-container" style="display: none;">
+    <div id="game-board"></div>
+    <p id="status"></p>
+    <button class="vibrant-button cancel" id="reset-button">Reset Game</button>
+    <button class="vibrant-button outline" id="home-button">Return to Home</button>
+  </div>
+
+  <script src="tic_scripts.js"></script>
+</body>
+</html>
